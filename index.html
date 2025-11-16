@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ernest Otieno | Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+<body>
+  <header>
+  <h1 class="logo">Ernest Otieno</h1>
+  
+  <!-- Hamburger Icon -->
+  <div class="menu-toggle" id="menu-toggle">
+    <i class="fas fa-bars"></i>
+  </div>
+
+  <!-- Navigation Links -->
+  <nav id="nav-links">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+  <main class="home">
+    <section class="profile">
+      <img src="images/ernest.jpg" alt="Ernest Otieno" class="profile-photo" />
+    <h2>Hello, I'm Ernest Otieno</h2>
+    <p>
+      A <strong>Statistician, Data Analyst, Researcher, Business Intelligence Enthusiast,</strong>
+      and <strong>Euthenist</strong> passionate about data-driven change,
+      driven by the goal of transforming data into actionable insights
+        for positive change.
+    </p>
+    <a href="projects.html" class="btn">View My Work</a>
+    <a href="Ernest_Otieno_CV.pdf" class="btn" download>Download CV</a>
+  </main> <section id="skills" class="skills-section">
+    <h2>My Professional Skills</h2>
+    <div class="skills-container">
+
+      <div class="skill-card">
+        <i class="fas fa-chart-line skill-icon"></i>
+        <h3>Statistical Analysis</h3>
+        <p>Regression,Time series,survival analysis, logistic regression, ANOVA, Multivariate, and Bayesian Modeling</p>
+      </div>
+
+      <div class="skill-card">
+        <i class="fas fa-database skill-icon"></i>
+        <h3>Data Analysis Tools</h3>
+        <p>R, SPSS, Excel, Power BI, Python (Pandas, NumPy)</p>
+      </div>
+
+      <div class="skill-card">
+        <i class="fas fa-brain skill-icon"></i>
+        <h3>Machine Learning</h3>
+        <p>Predictive Modeling, AI in Agriculture, Health Analytics</p>
+      </div>
+
+      <div class="skill-card">
+        <i class="fas fa-tablet-alt skill-icon"></i>
+        <h3>Data Collection</h3>
+        <p>Health data, KoboCollect, CommCare</p>
+      </div>
+
+      <div class="skill-card">
+        <i class="fas fa-chart-pie skill-icon"></i>
+        <h3>Research & Reporting</h3>
+        <p>Study design,literature review, visualization, and statistical reporting</p>
+      </div>
+
+      <div class="skill-card">
+        <i class="fas fa-pen-nib skill-icon"></i>
+        <h3>Communication & Writing</h3>
+        <p>Technical reports, proposals, and scientific writing</p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <footer>
+    <main class="contact">
+    <h2>Let's Connect 📬</h2>
+    <p>phone number : <a href="0798761671">0798761671</a></p>
+    <p>Email: <a href="otienoernest35@gmail.com">otienoernest35@gmail.com</a></p>
+    <p>LinkedIn: <a href="#" target="_blank">www.linkedin.com/in/ernest-otieno-statistician-769767231</a></p>
+    <p>GitHub: <a href="#" target="_blank">https://github.com/Ernestotieno</a></p>
+  </main>
+
+    <p>© 2025 Ernest Otieno. All Rights Reserved.</p>
+  </footer>
+  <script>
+  // Toggle mobile menu
+  const menuToggle = document.getElementById('menu-toggle');
+  const navLinks = document.getElementById('nav-links');
+
+  menuToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+</script>
+
+</body>
+</html>
+
